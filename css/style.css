@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,italic,700&display=swap");
+
+body {
+  font-family: "Lato";
+  font-weight: 700;
+  line-height: 1.5;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  position: relative;
+}
+
+.title__page {
+  position: relative;
+}
+.title__image img {
+  width: 1170px;
+  height: 600px;
+}
+.ray__block {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 380px;
+  left: 255px;
+}
+.ray__block:hover {
+  transform: translateX(150px);
+  transition: all 0.8s ease 0s;
+}
+.ray__block img {
+  width: 200px;
+  height: 200px;
+}
+.block {
+  position: absolute;
+}
+.block__hadouken {
+  position: absolute;
+  top: 35px;
+  left: 245px;
+}
+.block__hadouken:hover::before {
+  content: "HADOUKEN";
+  color: red;
+  background-color: rgb(194, 247, 86);
+}
+.block__hadouken img {
+  width: 100px;
+  height: 70px;
+}
+.blok {
+  position: relative;
+}
+.gail__blok {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 395px;
+  left: 955px;
+}
+.gail__blok:hover {
+  transform: translateX(100px);
+  transition: all 0.5s ease 0s;
+}
+.gail__blok img {
+  width: 170px;
+  height: 200px;
+}
+.blok__slesher {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  top: 35px;
+  right: 335px;
+}
+.blok__slesher:hover::before {
+  content: "SHELTER";
+  color: yellow;
+}
+.blok__slesher img {
+  width: 100px;
+  height: 70px;
+}
+
+.item {
+  position: relative;
+}
+.item__blackhole {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -475px;
+  right: 100px;
+}
+.item__blackhole:hover {
+  transform: rotate(360deg);
+  transition: all 0.8s ease 0s;
+}
+
+.item__blackhole img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.part__lightning {
+  position: absolute;
+  top: -475px;
+  left: 100px;
+}
+.part__lightning:hover::after {
+  content: "shazam";
+  color: rgb(194, 247, 86);
+}
+.part__lightning img:hover {
+  width: 50px;
+  height: 200px;
+  transform: scale(0.8, 2.5);
+}
+.text {
+  display: inline-block;
+  position: relative;
+  font-size: 15px;
+  width: 200px;
+  height: auto;
+  background-color: thistle;
+  top: -570px;
+  left: 650px;
+}
+.text:hover {
+  transform-origin: top-left;
+  transform: rotate(45deg);
+  transition: all 0.5s ease 0s;
+}
+.soudtack__sektiom {
+  position: absolute;
+  background-color: rgb(59, 82, 184);
+  top: 490px;
+  left: 115px;
+  width: 130px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 40%;
+  text-align: center;
+  color: aliceblue;
+  font-size: 16px;
+  padding-top: 10px;
+  border: 3px solid;
+}
+.soudtack__sektiom:hover {
+  box-shadow: 0px 0px 5px 5px rgb(223, 228, 251);
+}
+.soudtack__sektiom audio {
+  max-width: 100px;
+  color: azure;
+}
+audio {
+  width: 300px;
+  height: 34px;
+}
+.st__image {
+  position: absolute;
+  max-width: 200px;
+  max-height: 150px;
+  top: 70px;
+  left: 350px;
+}
+.st__image:hover {
+  transform: scale(1.5);
+}
+.st__image img {
+  max-width: 200px;
+  max-height: 150px;
+}
